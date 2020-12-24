@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;60")
 
-:root{
-    --test-teste: 3rem;
-}
 
 /* Var CSS */
 
@@ -103,8 +100,16 @@ img{
    margin: var(--mb-4) 0;
    text-align: center;
 }
-.section-title::after{ https://youtu.be/6cidbUHNZRQ?t=448
-
+.section-title::after{
+    position: absolute;
+    content:"";
+    width: 32px;
+    height: .18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
 }
 
 
