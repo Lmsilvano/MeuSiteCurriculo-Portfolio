@@ -11,7 +11,7 @@
 /* Cores */
 
 :root{
-    --first-color: #5361FF;
+    --first-color: #1e2bbecb;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -162,6 +162,7 @@ img{
 }
 .nav_item{
     margin-bottom: var(--mb-4);
+    padding-top: 18px;
 }
 .nav_link{
     position: relative;
@@ -188,3 +189,63 @@ img{
 .show{
     right: 0;
 }
+
+/* ativação do menu */
+
+.active::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:  .18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
+
+
+/* H O M E */
+
+.home{
+    position: relative;
+    background-color: var(--first-color);
+    overflow: hidden;
+}
+.home_container{
+    height: calc(100vh - var(--header-height));
+    row-gap: 5rem;    
+}
+.home_title{
+    align-self: flex-end;
+    font-size: var(--big-font-size);
+    color: var(--white-color);
+    line-height: .8;
+}
+
+.home_title span{
+    text-shadow: 0 28px 25px rgba(0,0,0,.5);
+}
+.home_scroll{
+    align-self: flex-end;
+    padding-bottom: var(--mb-4);
+
+}
+.home_scroll-link{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: var(--white-color);
+}
+/* Imagem da HOME
+.home_img{ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width 295px; 
+}
+*/
+
+.credito{
+    color: var(--white-color);
+    font-size: var(--normal-font-size)
+}
+
