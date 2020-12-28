@@ -83,18 +83,18 @@ sr.reveal('.formacao_prof', {delay: 400})
 sr.reveal('.formacao_name', {delay: 400})
 sr.reveal('.formacao_text', {delay: 500})
 
+//SCROLL contato
 
 
-
-
-
-
-
-/*SCROLL PORTFOLIO
-sr.reveal('.portfolio_img', {interval: 200})
-
-/*SCROLL CONTACT
 sr.reveal('.contact_subtitle', {})
 sr.reveal('.contact_text', {interval: 200})
 sr.reveal('.contact_input', {delay: 400})
-sr.reveal('.contact_button', {delay: 600}) */
+sr.reveal('.contact_button', {delay: 600})
+
+const alerta = document.getElementById("contato_butao")
+
+alerta.addEventListener('click', alertb)
+
+function alertb(){
+    alert('Botão desativado!\nEntre em contato por telefone/whatsapp (48 999476814) ou email (leandro.m.silvano@gmail.com')
+}
