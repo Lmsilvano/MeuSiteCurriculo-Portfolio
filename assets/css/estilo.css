@@ -158,6 +158,18 @@ img{
         transition: .5s;
         backdrop-filter: blur(10px);
     } 
+    .nav_logo{
+        color: var(--white-color);
+        font-size: 10px;
+     }
+     .home_title{
+        align-self: flex-end;
+        font-size: var(--big-font-size);
+        color: var(--white-color);
+        line-height: .8;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }
 }
 .nav_item{
     margin-bottom: var(--mb-4);
@@ -174,7 +186,7 @@ img{
 }
 .nav_logo{
     color: var(--white-color);
-    font-size: 27px;
+    font-size: 17px;
     padding-right: 50px;
 }
 .nav_toggle{
@@ -249,7 +261,7 @@ img{
 
 .social{
     color: var(--white-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin: 1cm 
 
 }
