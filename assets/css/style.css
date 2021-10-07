@@ -440,23 +440,18 @@ img {
   color: var(--white-color);
 }
 
-.work_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  text-align: justify;
+.exp_text {
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #1e2bbecb;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
-.work_container {
-  margin-right: 20vw;
-  width: 35vw;
-}
-
-.work_container p {
-  text-align: justify;
+.exp_text:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
+  font-size: 115%;
 }
 
 /* contato */

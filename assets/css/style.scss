@@ -397,17 +397,16 @@ img {
 
 // Experiencia e projetos
 
-.work_section {
-  display: flex;
-  justify-content: flex-end;
-  text-align: justify;
-}
-.work_container {
-  margin-right: 20vw;
-  width: 35vw;
-
-  p {
-    text-align: justify;
+.exp_text {
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #1e2bbecb;
+  transition: 1.5s;
+  &:hover {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)
+      no-repeat;
+    font-size: 115%;
   }
 }
 
