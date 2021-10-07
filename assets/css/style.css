@@ -301,7 +301,7 @@ img {
 }
 
 /*  Sobre Mim */
-.sobreMim_container {
+.about_container {
   justify-items: center;
   row-gap: 2rem;
   text-align: justify;
@@ -309,7 +309,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .sobreMim_container {
+  .about_container {
     justify-items: center;
     row-gap: 2rem;
     text-align: center;
@@ -317,28 +317,28 @@ img {
   }
 }
 
-.sobreMim_subtitle {
+.about_subtitle {
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-1);
 }
 
-.sobreMim_text {
+.about_text {
   margin-bottom: var(--mb-4);
 }
 
-.sobreMim_prof {
+.about_prof {
   display: block;
   margin-bottom: var(--mb-4);
   color: var(--first-color);
 }
 
-.sobreMim_social-icon {
+.about_social-icon {
   font-size: 1.4rem;
   margin: 0 var(--mb-1);
 }
 
-.sobreMim_social-icon:hover {
+.about_social-icon:hover {
   color: var(--first-color);
 }
 
@@ -438,6 +438,25 @@ img {
 .formacao_name:hover {
   background-color: var(--first-color);
   color: var(--white-color);
+}
+
+.work_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: justify;
+}
+
+.work_container {
+  border: 2px red solid;
+  width: 35vw;
+}
+
+.work_container p {
+  text-align: justify;
 }
 
 /* contato */
@@ -568,7 +587,7 @@ img {
     width: 524px;
     right: 10%;
   }
-  .sobreMim_container {
+  .about_container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -webkit-box-align: center;
@@ -577,14 +596,23 @@ img {
     text-align: justify;
     padding: 4rem 0;
   }
-  .sobreMim_img {
+  .about_img {
     width: 200px;
     height: 230px;
   }
-  .sobreMim_img img {
+  .about_img img {
     width: 165px;
   }
   .formacao_container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+    padding: 4rem 0;
+  }
+  .work_container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -webkit-box-align: center;
