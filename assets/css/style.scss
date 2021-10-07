@@ -399,11 +399,11 @@ img {
 
 .work_section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   text-align: justify;
 }
 .work_container {
-  border: 2px red solid;
+  margin-right: 20vw;
   width: 35vw;
 
   p {

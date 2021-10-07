@@ -444,14 +444,14 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   text-align: justify;
 }
 
 .work_container {
-  border: 2px red solid;
+  margin-right: 20vw;
   width: 35vw;
 }
 
