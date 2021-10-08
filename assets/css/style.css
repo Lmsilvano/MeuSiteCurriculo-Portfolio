@@ -171,11 +171,17 @@ img {
   .home_title {
     -ms-flex-item-align: end;
         align-self: flex-end;
-    font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: 0.8;
     margin-top: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 2vw;
+  }
+  .home_title span {
+    font-size: 10rem;
+  }
+  .home_scroll {
+    position: absolute;
+    padding-bottom: var(--mb-4);
   }
 }
 
